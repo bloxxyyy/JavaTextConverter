@@ -10,7 +10,7 @@
 	<body>
 		<h1>Text Converter</h1>
 		<p>Fill in your text here:</p>
-		<form action="https://vps.ad-blokker.nl:8443/caseConv/Conv" method="post" id="form">
+		<form action="http://localhost:8084/caseConv/Conv" method="post" id="form">
 			<textarea rows="6" cols="50" maxlength="1000" name="input" required=""></textarea><br>
 			<label title="ALL CAPS"><input type="radio" name="format" value="caps" checked> All Caps</label><br>
 			<label title="AlTeRnAtInG cAsE)"><input type="radio" name="format" value="altcase"> Alternating Case</label><br>
@@ -53,7 +53,7 @@
 					}
 				};
 				
-				xhr.open("POST", "https://vps.ad-blokker.nl:8443/caseConv/Conv");
+				xhr.open("POST", "http://localhost:8084/caseConv/Conv");
 				xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 				xhr.send(formData);
 			};

@@ -1,14 +1,11 @@
 package Conv;
 
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Copyright (C) 2020 Mark Blokker ~ Ad-Blokker
  */
 
 /**
- *
- * @author mblok
+ * @author Mark Blokker ~ Ad-Blokker
  */
 public class Leet {
 
@@ -21,34 +18,34 @@ public class Leet {
             String tester = "" + input.charAt(i);
             switch (tester) {
                 case "e":
-                    output = output + "3";
+                    output += "3";
                     break;
                 case "a":
-                    output = output + "4";
+                    output += "4";
                     break;
                 case "l":
-                    output = output + "1";
+                    output += "1";
                     break;
                 case "o":
-                    output = output + "0";
+                    output += "0";
                     break;
                 case "s":
-                    output = output + "$";
+                    output += "$";
                     break;
                 case "w":
-                    output = output + "VV";
+                    output += "VV";
                     break;
                 case "t":
-                    output = output + "7";
+                    output += "7";
                     break;
                 case "u":
-                    output = output + "v";
+                    output += "v";
                     break;
                 case "i":
-                    output = output + "!";
+                    output += "!";
                     break;
                 default:
-                    output = output + input.charAt(i);
+                    output += input.charAt(i);
                     break;
 
             }
